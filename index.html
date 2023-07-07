@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Sign up/Log in</title>
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div id="main-container">
+            <div id="left-container">
+                <img id="banner-img" src="images/halie-west-25xggax4bSA-unsplash.jpg">
+                <div id="logo">
+                    <img id="logo-img" src="images/odin-lined.png">
+                    <span>ODIN</span>
+                </div>
+                <div id="footer">
+                    Photo by <a href="https://unsplash.com/@haliewestphoto">Halie West</a> on <a href="https://unsplash.com/">Unsplash</a>
+                </div>
+            </div>
+            <div id="righ-container">
+                <div id="message">
+                    <p>
+                        This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams. Sign up now to get started.
+                        You know you want to.
+                    </p>
+                </div>
+                <div id="form-container">
+                    <h3>Let's do this!</h3>
+                    <form action="/signup" method="post" id="sign-up">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+
+                        <label for="phone-number">PHONE NUMBER</label>
+                        <input type="tel" id="phone-number" name="phone-number">
+
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+
+                        <label for="confirm-pass">CONFIRM PASSWORD</label>
+                        <input type="password" id="confirm-pass" name="confirm-pass">
+                    </form>
+                </div>
+                <div id="button container">
+                    <button type="submit" form="sign-up">Create account</button>
+                    <span>Already have an account?</span><a href="index.html">Log in</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
