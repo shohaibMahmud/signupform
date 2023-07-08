@@ -1,3 +1,4 @@
+/*
 document.querySelector("button").
 addEventListener("click", ()=>{
     passwd = document.querySelector("#password");
@@ -13,4 +14,4 @@ addEventListener("click", ()=>{
         passwd.classList.add("error");
         confPass.classList.add("error");     
     }
-});
+});*/
